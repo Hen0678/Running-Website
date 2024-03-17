@@ -296,7 +296,7 @@ main {
     .nav-toggle-label {
         display: none;
     }
-
+   
     #logo {
         font-size: 280%;
         line-height: 75px;
@@ -306,6 +306,13 @@ main {
     #signup {
         background-position: center;
         position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
     }
 
     .text-input:hover {
